@@ -1,0 +1,4 @@
+D:\CsDoc\PersonalCreateOnlyProject\RPGCLI\obj\Release\net10.0\win-x64\RPGCLI.GeneratedMSBuildEditorConfig.editorconfig
+D:\CsDoc\PersonalCreateOnlyProject\RPGCLI\obj\Release\net10.0\win-x64\RPGCLI.AssemblyInfoInputs.cache
+D:\CsDoc\PersonalCreateOnlyProject\RPGCLI\obj\Release\net10.0\win-x64\RPGCLI.AssemblyInfo.cs
+D:\CsDoc\PersonalCreateOnlyProject\RPGCLI\obj\Release\net10.0\win-x64\RPGCLI.csproj.CoreCompileInputs.cache

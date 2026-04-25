@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "x6Wu/X3Wae0=",
+  "success": true,
+  "projectFilePath": "D:\\CsDoc\\PersonalCreateOnlyProject\\RPGCLI\\RPGCLI.csproj",
+  "expectedPackageFiles": [
+    "D:\\NuGetCache\\microsoft.net.illink.tasks\\10.0.5\\microsoft.net.illink.tasks.10.0.5.nupkg.sha512",
+    "D:\\NuGetCache\\microsoft.netcore.app.runtime.win-x64\\10.0.5\\microsoft.netcore.app.runtime.win-x64.10.0.5.nupkg.sha512",
+    "D:\\NuGetCache\\microsoft.windowsdesktop.app.runtime.win-x64\\10.0.5\\microsoft.windowsdesktop.app.runtime.win-x64.10.0.5.nupkg.sha512",
+    "D:\\NuGetCache\\microsoft.aspnetcore.app.runtime.win-x64\\10.0.5\\microsoft.aspnetcore.app.runtime.win-x64.10.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

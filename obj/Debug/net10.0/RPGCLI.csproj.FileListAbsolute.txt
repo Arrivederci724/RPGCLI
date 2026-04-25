@@ -1,0 +1,14 @@
+D:\CsDoc\PersonalCreateOnlyProject\RPGCLI\obj\Debug\net10.0\RPGCLI.GeneratedMSBuildEditorConfig.editorconfig
+D:\CsDoc\PersonalCreateOnlyProject\RPGCLI\obj\Debug\net10.0\RPGCLI.AssemblyInfoInputs.cache
+D:\CsDoc\PersonalCreateOnlyProject\RPGCLI\obj\Debug\net10.0\RPGCLI.AssemblyInfo.cs
+D:\CsDoc\PersonalCreateOnlyProject\RPGCLI\obj\Debug\net10.0\RPGCLI.csproj.CoreCompileInputs.cache
+D:\CsDoc\PersonalCreateOnlyProject\RPGCLI\bin\Debug\net10.0\RPGCLI.exe
+D:\CsDoc\PersonalCreateOnlyProject\RPGCLI\bin\Debug\net10.0\RPGCLI.deps.json
+D:\CsDoc\PersonalCreateOnlyProject\RPGCLI\bin\Debug\net10.0\RPGCLI.runtimeconfig.json
+D:\CsDoc\PersonalCreateOnlyProject\RPGCLI\bin\Debug\net10.0\RPGCLI.dll
+D:\CsDoc\PersonalCreateOnlyProject\RPGCLI\bin\Debug\net10.0\RPGCLI.pdb
+D:\CsDoc\PersonalCreateOnlyProject\RPGCLI\obj\Debug\net10.0\RPGCLI.dll
+D:\CsDoc\PersonalCreateOnlyProject\RPGCLI\obj\Debug\net10.0\refint\RPGCLI.dll
+D:\CsDoc\PersonalCreateOnlyProject\RPGCLI\obj\Debug\net10.0\RPGCLI.pdb
+D:\CsDoc\PersonalCreateOnlyProject\RPGCLI\obj\Debug\net10.0\RPGCLI.genruntimeconfig.cache
+D:\CsDoc\PersonalCreateOnlyProject\RPGCLI\obj\Debug\net10.0\ref\RPGCLI.dll
