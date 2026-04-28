@@ -1,0 +1,2 @@
+D:\CsDoc\PersonalCreateOnlyProject\HttpAndAPI\bin\Release\net10.0-windows\win-x64\publish\HttpAndAPI.pdb
+D:\CsDoc\PersonalCreateOnlyProject\HttpAndAPI\bin\Release\net10.0-windows\win-x64\publish\HttpAndAPI.exe

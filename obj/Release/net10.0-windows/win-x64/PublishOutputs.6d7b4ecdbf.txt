@@ -1,0 +1,6 @@
+D:\CsDoc\PersonalCreateOnlyProject\HttpAndAPI\bin\Release\net10.0-windows\win-x64\publish-normal\HttpAndAPI.exe
+D:\CsDoc\PersonalCreateOnlyProject\HttpAndAPI\bin\Release\net10.0-windows\win-x64\publish-normal\favicon_combined.ico
+D:\CsDoc\PersonalCreateOnlyProject\HttpAndAPI\bin\Release\net10.0-windows\win-x64\publish-normal\HttpAndAPI.dll
+D:\CsDoc\PersonalCreateOnlyProject\HttpAndAPI\bin\Release\net10.0-windows\win-x64\publish-normal\HttpAndAPI.deps.json
+D:\CsDoc\PersonalCreateOnlyProject\HttpAndAPI\bin\Release\net10.0-windows\win-x64\publish-normal\HttpAndAPI.runtimeconfig.json
+D:\CsDoc\PersonalCreateOnlyProject\HttpAndAPI\bin\Release\net10.0-windows\win-x64\publish-normal\HttpAndAPI.pdb

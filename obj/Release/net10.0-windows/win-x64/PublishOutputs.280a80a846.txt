@@ -1,0 +1,3 @@
+D:\CsDoc\CsCache(Publish)\HttpAndAPI.pdb
+D:\CsDoc\CsCache(Publish)\favicon_combined.ico
+D:\CsDoc\CsCache(Publish)\HttpAndAPI.exe

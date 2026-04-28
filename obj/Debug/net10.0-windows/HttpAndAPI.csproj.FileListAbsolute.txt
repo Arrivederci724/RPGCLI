@@ -1,0 +1,15 @@
+D:\CsDoc\PersonalCreateOnlyProject\HttpAndAPI\bin\Debug\net10.0-windows\HttpAndAPI.exe
+D:\CsDoc\PersonalCreateOnlyProject\HttpAndAPI\bin\Debug\net10.0-windows\HttpAndAPI.deps.json
+D:\CsDoc\PersonalCreateOnlyProject\HttpAndAPI\bin\Debug\net10.0-windows\HttpAndAPI.runtimeconfig.json
+D:\CsDoc\PersonalCreateOnlyProject\HttpAndAPI\bin\Debug\net10.0-windows\HttpAndAPI.dll
+D:\CsDoc\PersonalCreateOnlyProject\HttpAndAPI\bin\Debug\net10.0-windows\HttpAndAPI.pdb
+D:\CsDoc\PersonalCreateOnlyProject\HttpAndAPI\obj\Debug\net10.0-windows\HttpAndAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\CsDoc\PersonalCreateOnlyProject\HttpAndAPI\obj\Debug\net10.0-windows\HttpAndAPI.AssemblyInfoInputs.cache
+D:\CsDoc\PersonalCreateOnlyProject\HttpAndAPI\obj\Debug\net10.0-windows\HttpAndAPI.AssemblyInfo.cs
+D:\CsDoc\PersonalCreateOnlyProject\HttpAndAPI\obj\Debug\net10.0-windows\HttpAndAPI.csproj.CoreCompileInputs.cache
+D:\CsDoc\PersonalCreateOnlyProject\HttpAndAPI\obj\Debug\net10.0-windows\HttpAndAPI.dll
+D:\CsDoc\PersonalCreateOnlyProject\HttpAndAPI\obj\Debug\net10.0-windows\refint\HttpAndAPI.dll
+D:\CsDoc\PersonalCreateOnlyProject\HttpAndAPI\obj\Debug\net10.0-windows\HttpAndAPI.pdb
+D:\CsDoc\PersonalCreateOnlyProject\HttpAndAPI\obj\Debug\net10.0-windows\HttpAndAPI.genruntimeconfig.cache
+D:\CsDoc\PersonalCreateOnlyProject\HttpAndAPI\obj\Debug\net10.0-windows\ref\HttpAndAPI.dll
+D:\CsDoc\PersonalCreateOnlyProject\HttpAndAPI\bin\Debug\net10.0-windows\favicon_combined.ico
