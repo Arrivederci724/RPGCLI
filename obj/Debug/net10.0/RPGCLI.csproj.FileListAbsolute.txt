@@ -12,3 +12,4 @@ D:\CsDoc\PersonalCreateOnlyProject\RPGCLI\obj\Debug\net10.0\refint\RPGCLI.dll
 D:\CsDoc\PersonalCreateOnlyProject\RPGCLI\obj\Debug\net10.0\RPGCLI.pdb
 D:\CsDoc\PersonalCreateOnlyProject\RPGCLI\obj\Debug\net10.0\RPGCLI.genruntimeconfig.cache
 D:\CsDoc\PersonalCreateOnlyProject\RPGCLI\obj\Debug\net10.0\ref\RPGCLI.dll
+D:\CsDoc\PersonalCreateOnlyProject\RPGCLI\obj\Debug\net10.0\RPGCLI.sourcelink.json

@@ -40,22 +40,21 @@ class Program
     bool whi = true;
     Get get = new Get();
 
-    private void ZhanDou(ref int playerImage, ref int defaultWuQiShh)
+    private void ZhanDou(ref int playerImage, ref int defaultWuQiShh,int explore)
     {
         whi = true;
         ToDownItem toDownItem = new ToDownItem();
             if (whi)
             {
-                Get get1 = new Get();
-                if (get1.i == 50)
+                if (explore == 50)
                 {
-                    image = random.Next(200,411);
-                    shh = random.Next(0,41);
+                    image = random.Next(200,wuqi.playerImage+501);
+                    shh = random.Next(0,wuqi.defaultWuQiShh+36);
                 }
                 else
                 {
-                    image = random.Next(0, 101); //血量
-                    shh = random.Next(0, 21); //伤害
+                    image = random.Next(0, wuqi.playerImage+1); //血量
+                    shh = random.Next(0, wuqi.defaultWuQiShh+6); //伤害
                 }
 
                 Console.WriteLine("开始战斗");
@@ -78,12 +77,12 @@ class Program
                                 toDownItem.fall(ref get.Bag, wuqi);
                                 whi = false;
                                 whi2 = true;
+                                break;
                             }
-
                             playerImage -= shh;
                             if (playerImage <= 0) //玩家死亡机制 同下
                             {
-                                string s = $"伤害:{Convert.ToString(wuqi.defaultWuQiShh)}|血量:{Convert.ToString(wuqi.playerImage / 2)}|背包:{get.Bag}";
+                                string s = $"伤害:{Convert.ToString(wuqi.defaultWuQiShh)}|血量:50|背包:{get.Bag}|法力值:{wuqi.ManaPoints}";
                                 Console.WriteLine("你死了");
                                 File.WriteAllText("s.sav", s);
                                 Environment.Exit(0);
@@ -94,7 +93,7 @@ class Program
                             playerImage -= shh;
                             if (playerImage <= 0)
                             {
-                                string s = $"伤害:{Convert.ToString(wuqi.defaultWuQiShh)}|血量:{Convert.ToString(wuqi.playerImage / 2)}|背包:{get.Bag}";
+                                string s = $"伤害:{Convert.ToString(wuqi.defaultWuQiShh)}|血量:50|背包:{get.Bag}|法力值:{wuqi.ManaPoints}";
                                 Console.WriteLine("你死了");
                                 File.WriteAllText("s.sav", s);
                                 Environment.Exit(0);
@@ -120,27 +119,32 @@ class Program
                                 playerImage -= shh;
                                 if (playerImage <= 0)
                                 {
-                                    string s = $"伤害:{Convert.ToString(wuqi.defaultWuQiShh)}|血量:{Convert.ToString(wuqi.playerImage / 2)}|背包:{string.Join(",", get.Bag)}";
+                                    string s = $"伤害:{Convert.ToString(wuqi.defaultWuQiShh)}|血量:50|背包:{get.Bag}|法力值:{wuqi.ManaPoints}";
                                     Console.WriteLine("你死了");
                                     File.WriteAllText("s.sav", s);
                                     Environment.Exit(0);
                                 }
 
                             }
-                                                                                                                        
-                                                                                                                        
                             break;
                             case 4:
-                            Console.WriteLine(get.Bag);
-                            wuqi.playerImage += 50;
-                            Console.WriteLine("使用成功");
-                            get.Bag--;
+	                        if(get.Bag == 0) 
+                            {
+                              Console.WriteLine("没有血瓶");
+                            }
+	                        else
+                            {
+                              Console.WriteLine(get.Bag);
+                              wuqi.playerImage += 50;
+                              Console.WriteLine("使用成功");
+                              get.Bag--;
+                            }
                             break;
                         case 5:
                             if (wuqi.ManaPoints >= 20)
                             {
                                 Console.WriteLine("使用成功");
-                                image -= 35;
+                                image -= wuqi.defaultWuQiShh+30;
                                 if (image <= 0)
                                 {
                                     Console.WriteLine("你赢了");
@@ -163,7 +167,6 @@ class Program
                 catch (Exception e)
                 {
                     Console.WriteLine(e.Message);
-                    Environment.Exit(0);
                 }
             }
     }
@@ -187,12 +190,14 @@ class Program
                         string[] saveBefore3 = saveBefore[1].Split(':');
                         wuqi.playerImage = Convert.ToInt32(saveBefore3[1]);
                         string[] saveBefore4 = saveBefore[2].Split(':');
+                        string[] saveBefore5 = saveBefore[3].Split(':');
                         get.Bag = Convert.ToInt32(saveBefore4[1]);
+                        wuqi.ManaPoints = Convert.ToInt32(saveBefore5[1]);
 
                         break;
                           case 2:
                               Console.WriteLine("再见!");
-                              string s = $"伤害:{Convert.ToString(wuqi.defaultWuQiShh)}|血量:{Convert.ToString(wuqi.playerImage)}|背包:{get.Bag}";
+                              string s = $"伤害:{Convert.ToString(wuqi.defaultWuQiShh)}|血量:{Convert.ToString(wuqi.playerImage)}|背包:{get.Bag}|法力值:{wuqi.ManaPoints}";
                               File.WriteAllText("s.sav", s);
                               Thread.Sleep(2000);
                               Environment.Exit(0);
@@ -205,7 +210,6 @@ class Program
             catch (Exception e)
             {
                 Console.WriteLine(e.Message);
-                Environment.Exit(0);
             }
         }
         else
@@ -237,7 +241,7 @@ class Program
         {
             while (whi2)
             {
-                Console.WriteLine("1.前进,2.道具,3.休息,4.查看,5.退出");
+                Console.WriteLine("1.前进,2.血瓶,3.休息,4.查看,5.退出");
                 try
                 {
                     int n2 = Convert.ToInt32(Console.ReadLine());
@@ -293,7 +297,7 @@ class Program
                             break;
                         case 5:
                             Console.WriteLine("再见!");
-                            string s2 = $"伤害:{Convert.ToString(wuqi.defaultWuQiShh)}|血量:{Convert.ToString(wuqi.playerImage)}|背包:{get.Bag}";
+                            string s2 = $"伤害:{Convert.ToString(wuqi.defaultWuQiShh)}|血量:{Convert.ToString(wuqi.playerImage)}|背包:{get.Bag}|法力值:{wuqi.ManaPoints}";
                             File.WriteAllText("s.sav", s2);
                             Thread.Sleep(2000);
                             Environment.Exit(0);
@@ -306,19 +310,18 @@ class Program
                 catch (Exception e)
                 {
                     Console.WriteLine(e.Message);
-                    Environment.Exit(0);
                 }
             }
             whi2 = true;
             int Explore = random.Next(0, 101);
             if (Explore > 50)
             {
-                ZhanDou(ref wuqi.playerImage, ref wuqi.defaultWuQiShh);
+                ZhanDou(ref wuqi.playerImage, ref wuqi.defaultWuQiShh,Explore);
                 Thread.Sleep(1500);
             }
             else if (Explore == 50)
             {
-                ZhanDou(ref wuqi.playerImage, ref wuqi.defaultWuQiShh);
+                ZhanDou(ref wuqi.playerImage, ref wuqi.defaultWuQiShh,Explore);
             }
         }
     }
