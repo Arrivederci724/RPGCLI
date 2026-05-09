@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RPGCLI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68d3a01c936536bf3c3cd926536573a5c9e411d0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51c1ce909d5f5cf5b83484c6b5406d3b05d4555e")]
 [assembly: System.Reflection.AssemblyProductAttribute("RPGCLI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RPGCLI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
